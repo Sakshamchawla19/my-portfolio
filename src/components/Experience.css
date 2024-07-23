@@ -1,0 +1,29 @@
+#experience {
+    padding: 20px;
+  }
+  
+  #experience h2 {
+    margin-top: 0;
+  }
+  
+  #experience div {
+    margin: 20px 0;
+  }
+  
+  #experience h3 {
+    margin: 10px 0 5px 0;
+  }
+  
+  #experience p {
+    margin: 5px 0;
+  }
+  
+  #experience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #experience li {
+    margin: 5px 0;
+  }
+  

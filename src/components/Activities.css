@@ -1,0 +1,29 @@
+#activities {
+    padding: 20px;
+  }
+  
+  #activities h2 {
+    margin-top: 0;
+  }
+  
+  #activities div {
+    margin: 20px 0;
+  }
+  
+  #activities h3 {
+    margin: 10px 0 5px 0;
+  }
+  
+  #activities p {
+    margin: 5px 0;
+  }
+  
+  #activities ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #activities li {
+    margin: 5px 0;
+  }
+  

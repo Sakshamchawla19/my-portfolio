@@ -1,0 +1,17 @@
+#achievements {
+    padding: 20px;
+  }
+  
+  #achievements h2 {
+    margin-top: 0;
+  }
+  
+  #achievements ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #achievements li {
+    margin: 10px 0;
+  }
+  

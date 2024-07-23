@@ -1,0 +1,17 @@
+#education {
+    padding: 20px;
+  }
+  
+  #education h2 {
+    margin-top: 0;
+  }
+  
+  #education ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #education li {
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,18 @@
+#certificates {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  #certificates h2 {
+    margin-top: 0;
+  }
+  
+  #certificates ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #certificates li {
+    margin: 10px 0;
+  }
+  
