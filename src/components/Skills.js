@@ -11,7 +11,6 @@ const Skills = () => {
         <li>Databases: SQL, MongoDB</li>
         <li>Version Control: Git and GitHub</li>
         <li>Agile & Project Management: JIRA</li>
-        <li>Analysis: Excel, Tableau, Power BI</li>
       </ul>
     </section>
   );
