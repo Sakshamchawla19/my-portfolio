@@ -2,11 +2,11 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            <p>&copy; 2024 My Portfolio</p>
-        </footer>
-    );
+  return (
+    <footer>
+      <p>&copy; 2024 Saksham Chawla. All Rights Reserved.</p>
+    </footer>
+  );
 };
 
 export default Footer;

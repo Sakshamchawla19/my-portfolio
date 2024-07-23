@@ -1,42 +1,26 @@
-// src/components/Projects.js
-
 import React from 'react';
 import './Projects.css';
 
-const projects = [
-  {
-    title: 'Project 1',
-    description: 'Description of project 1.',
-    link: 'https://example.com/project1',
-    image: 'https://via.placeholder.com/150' // Replace with actual image URLs
-  },
-  {
-    title: 'Project 2',
-    description: 'Description of project 2.',
-    link: 'https://example.com/project2',
-    image: 'https://via.placeholder.com/150' // Replace with actual image URLs
-  },
-  {
-    title: 'Project 3',
-    description: 'Description of project 3.',
-    link: 'https://example.com/project3',
-    image: 'https://via.placeholder.com/150' // Replace with actual image URLs
-  }
-];
-
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
+    <section id="projects">
       <h2>Projects</h2>
-      <div className="project-cards">
-        {projects.map((project, index) => (
-          <div key={index} className="project-card">
-            <img src={project.image} alt={project.title} className="project-image" />
-            <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
-          </div>
-        ))}
+      <div className="project-card">
+        <h3>KidZelp</h3>
+        <ul>
+          <li>Streamlined UX with Figma Prototyping: Leveraged Figma's design and prototyping capabilities to create low-fidelity and high-fidelity prototypes.</li>
+          <li>Elevated User Engagement: Transitioned to high-fidelity prototypes, refining visual elements and interactions for a polished UI.</li>
+          <li>Prioritized UI Polish: Incorporated detailed graphics, color schemes, and interactive components into high-fidelity prototypes using Figma.</li>
+        </ul>
+      </div>
+      <div className="project-card">
+        <h3>Gen-z-Flix</h3>
+        <ul>
+          <li>React & TypeScript Frontend: Built Gen-z-flix's user-friendly frontend with React and TypeScript.</li>
+          <li>Innovative Subscription Model: Spearheaded Gen-z-flix's unique hourly subscription model.</li>
+          <li>Secure & Scalable Platform: Integrated Firebase for secure user authentication and subscription management.</li>
+          <li>User-Centric Development: Championed user-centric development, aligning future enhancements with user needs and trends.</li>
+        </ul>
       </div>
     </section>
   );

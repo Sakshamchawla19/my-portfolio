@@ -1,23 +1,31 @@
-// src/App.js
-
 import React from 'react';
-import './App.css';
 import Header from './components/Header';
 import About from './components/About';
+import Education from './components/Education';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Activities from './components/Activities';
+import Certificates from './components/Certificates';
+import Achievements from './components/Achievements';
 import Footer from './components/Footer';
+import './App.css';
 
-function App() {
-    return (
-        <div className="App">
-            <Header />
-            <About />
-            <Projects />
-            <Contact />
-            <Footer />
-        </div>
-    );
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Header />
+      <About />
+      <Education />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Activities />
+      <Certificates />
+      <Achievements />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
