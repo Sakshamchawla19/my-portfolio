@@ -1,6 +1,8 @@
 #about {
     padding: 20px;
     background: #f9f9f9;
+    max-width: 800px;
+    margin: 0 auto; /* Center align */
   }
   
   #about h2 {
@@ -18,5 +20,11 @@
   
   #about a:hover {
     text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    #about {
+      padding: 10px;
+    }
   }
   

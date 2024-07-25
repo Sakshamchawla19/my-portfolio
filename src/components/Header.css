@@ -5,10 +5,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Allows wrapping for small screens */
   }
   
   header h1 {
     margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    flex-wrap: wrap; /* Allows navigation links to wrap */
   }
   
   header nav a {
@@ -19,5 +25,17 @@ header {
   
   header nav a:hover {
     text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    header nav {
+      flex-direction: column; /* Stack navigation links vertically */
+      align-items: center;
+      width: 100%;
+    }
+  
+    header nav a {
+      margin: 5px 0; /* Add spacing between stacked links */
+    }
   }
   
